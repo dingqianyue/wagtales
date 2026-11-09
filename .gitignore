@@ -1,0 +1,62 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# Xcode / iOS
+build/
+DerivedData/
+*.modulemap
+*.hmap
+*.xccheckout
+*.moved-aside
+*.xcuserstate
+*.xcscmblueprint
+xcuserdata/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+
+# iOS builds and code signing
+*.ipa
+*.dSYM.zip
+*.dSYM
+*.p12
+*.cer
+*.mobileprovision
+
+# Swift Package Manager
+.build/
+
+# Android
+.gradle/
+local.properties
+*.keystore
+!debug.keystore
+
+# Web / Node.js / Supabase Edge Functions
+node_modules/
+npm-debug.log
+yarn-error.log
+.pnpm-debug.log
+
+# Environment Variables & Secrets
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.pem
+
+# IDEs (VS Code, Android Studio)
+.vscode/
+.idea/
+*.iml
